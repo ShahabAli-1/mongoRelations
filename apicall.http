@@ -1,0 +1,32 @@
+# POST /staff/create HTTP/1.1
+# Host: localhost:3000
+# Content-Type: application/json
+
+# {
+#     "name": "shahab",
+#     "email": "shahab@gmail.com"
+# }
+
+
+
+# POST /cust/create HTTP/1.1
+# Host: localhost:3000
+# Content-Type: application/json
+
+# {
+#     "name": "cust3",
+#     "email": "cust3@gmail.com"
+# }
+
+# POST /order/create HTTP/1.1
+# Host: localhost:3000
+# Content-Type: application/json
+
+# {
+#     "orderNumber": "order3",
+#     "customerId": "66ad55b9a061053c9a8e2bc4",
+#     "amount":23
+# }
+
+GET /custwithorderdetail HTTP/1.1
+Host: localhost:3000
